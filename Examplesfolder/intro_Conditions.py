@@ -11,7 +11,7 @@ typeofsum = str(raw_input("would you like:  Addition(+), Subtraction(-), multipl
 if typeofsum == "+": 
 	number1 = int(input("Enter the first Value: "))  #input first number
 	number2	=int(input("Enter the second value: "))  #input second number
-	print number1 + number2							 #print out the annswer
+	print number1 + number2							 #Compute the sum of the values
 
 #elif statement
 elif typeofsum == "-":
@@ -23,7 +23,7 @@ elif typeofsum == "-":
 elif typeofsum == "*":
 	number1 = int(input("Enter the first value: ")) #input first number
 	number2 = int(input("Enter the second value"))  #input second number
-	print number1 *number2
+	print number1 * number2
 
 #elif statement
 elif typeofsum =="%":
